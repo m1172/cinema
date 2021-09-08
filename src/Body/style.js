@@ -10,5 +10,5 @@ export const Title = styled.div`
   align-items: center;
   justify-content: center;
   color: white;
-  /* font-size: 28px; */
+  font-size: 28px;
 `;

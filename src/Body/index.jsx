@@ -6,8 +6,8 @@ export default class index extends Component {
     return (
       <div>
         <Container>
-          <Title>hello</Title>
           <input type='text' />
+          <Title>Cinemas</Title>
         </Container>
       </div>
     );
