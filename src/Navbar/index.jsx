@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import data from '../data';
+import { data } from '../data';
+import { Container } from './style';
 
 export default class index extends Component {
   render() {
     return (
-      <div>
+      <Container>
         {data.map((value) => {
           return <div>{value.name}</div>;
         })}
-      </div>
+      </Container>
     );
   }
 }
